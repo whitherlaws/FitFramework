@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Squarebutton from './components/SQ-button'
 import FWbutton from './components/FW-button'
 import Navbar from './components/Footer'
@@ -20,7 +21,19 @@ export default App
 
 
 
+=======
+import { useState } from "react";
+import Squarebutton from "./components/SQ-button";
+import FWbutton from "./components/FW-button";
+import FitFrameworkLogo from "./components/FitFrameworkLogo";
+import Header from "./components/Header";
 
+const App = () => {
+  return <Header />;
+};
+>>>>>>> Stashed changes
+
+export default App;
 
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
@@ -53,7 +66,7 @@ export default App
 //       <p className="read-the-docs">
 //         Click on the Vite and React logos to learn more
 //       </p>
-      
+
 //     </>
 //   )
 // }
